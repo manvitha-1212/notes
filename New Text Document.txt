@@ -1,1 +1,1600 @@
-project1
+program1
+activity_main.xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:orientation="vertical"
+ tools:context=".MainActivity">
+ <RelativeLayout
+ android:layout_width="match_parent"
+ android:layout_height="59dp">
+ <TextView
+ android:id="@+id/textView"
+ android:layout_width="79dp"
+ android:layout_height="42dp"
+ android:layout_alignParentStart="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginStart="113dp"
+ android:layout_marginLeft="20dp"
+ android:layout_marginBottom="12dp"
+ android:gravity="center"
+ android:text="RNS IT"
+ android:textColor="#E61717"
+ android:textSize="20sp" />
+ <ImageView
+ android:id="@+id/imageView4"
+ android:layout_width="48dp"
+ android:layout_height="match_parent"
+ android:layout_alignParentBottom="true"
+ android:layout_marginLeft="88dp"
+ android:layout_marginBottom="1dp"
+ android:layout_toRightOf="@id/textView"
+ app:srcCompat="@drawable/rnsit" />
+ </RelativeLayout>
+ <View android:layout_width="match_parent"
+ android:layout_height="2dp" android:background="#000000" />
+ <TextView android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="Shwetha G N"
+ android:textSize="16dp"
+ android:layout_marginBottom="10dp"
+ android:layout_marginTop="10dp"
+ android:textColor="#000000"
+ android:gravity="center" />
+ <TextView android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="Asst prof"
+ android:textSize="16dp"
+ android:layout_marginBottom="10dp"
+ android:layout_marginTop="10dp"
+ android:textColor="#000000"
+ android:gravity="center" />
+ <View
+ android:layout_width="match_parent"
+ android:layout_height="2dp"
+ android:background="#000000" />
+ <TextView android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="+91-9108245345"
+ android:textSize="16dp"
+ android:layout_marginBottom="10dp"
+ android:layout_marginTop="10dp"
+ android:textColor="#000000"
+ android:gravity="center" />
+ <TextView android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:text="Bangalore"
+ android:textSize="16dp"
+ android:layout_marginBottom="10dp"
+ android:layout_marginTop="10dp"
+ android:textColor="#000000" android:gravity="center" />
+ <TextView android:layout_width="match_parent"
+ android:layout_height="wrap_content" android:text="Email:rnsit.ac.in"
+ android:textSize="16dp"
+ android:layout_marginBottom="10dp"
+ android:layout_marginTop="10dp"
+ android:textColor="#000000"
+ android:gravity="center" />
+</LinearLayout>
+
+
+program2
+
+activity_main.xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ tools:context=".MainActivity">
+ <Button
+ android:id="@+id/button_nine"
+ android:layout_width="62dp"
+ android:layout_height="48dp"
+ android:text="9"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.123"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.467" />
+ <Button
+ android:id="@+id/button_zero"
+ android:layout_width="63dp"
+ android:layout_height="46dp"
+ android:text="0"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.39"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.465"
+ tools:ignore="TouchTargetSizeCheck" />
+ <Button
+ android:id="@+id/button_sub"
+ android:layout_width="69dp"
+ android:layout_height="49dp"
+ android:text="-"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.953"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.463" />
+ <Button
+ android:id="@+id/button_add"
+ android:layout_width="65dp"
+ android:layout_height="44dp"
+ android:text="+"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.656"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.467"
+ tools:ignore="TouchTargetSizeCheck" />
+ <Button
+ android:id="@+id/button_equal"
+ android:layout_width="62dp"
+ android:layout_height="48dp"
+ android:text="="
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.163"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.689" />
+ <Button
+ android:id="@+id/button_mul"
+ android:layout_width="62dp"
+ android:layout_height="48dp"
+ android:text="*"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.123"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.568" />
+ <Button
+ android:id="@+id/button_div"
+ android:layout_width="63dp"
+ android:layout_height="46dp"
+ android:text="/"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.39"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.566"
+ tools:ignore="TouchTargetSizeCheck" />
+ <Button
+ android:id="@+id/button_clear"
+ android:layout_width="69dp"
+ android:layout_height="49dp"
+ android:text="C"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.953"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.564" />
+ <Button
+ android:id="@+id/button_dot"
+ android:layout_width="65dp"
+ android:layout_height="44dp"
+ android:text="."
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.656"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.567"
+ tools:ignore="TouchTargetSizeCheck" />
+ <Button
+ android:id="@+id/button_five"
+ android:layout_width="62dp"
+ android:layout_height="48dp"
+ android:text="5"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.123"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.377" />
+ <Button
+ android:id="@+id/button_six"
+ android:layout_width="63dp"
+ android:layout_height="46dp"
+ android:text="6"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.39"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.376"
+ tools:ignore="TouchTargetSizeCheck" />
+ <Button
+ android:id="@+id/button_eight"
+ android:layout_width="69dp"
+ android:layout_height="49dp"
+ android:text="8"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.953"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.373" />
+ <Button
+ android:id="@+id/button_seven"
+ android:layout_width="65dp"
+ android:layout_height="44dp"
+ android:text="7"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.656"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.378"
+ tools:ignore="TouchTargetSizeCheck" />
+ <Button
+ android:id="@+id/button_one"
+ android:layout_width="62dp"
+ android:layout_height="48dp"
+ android:text="1"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.123"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.281" />
+ <Button
+ android:id="@+id/button_two"
+ android:layout_width="63dp"
+ android:layout_height="46dp"
+ android:text="2"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.39"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.28"
+ tools:ignore="TouchTargetSizeCheck" />
+ <Button
+ android:id="@+id/button_three"
+ android:layout_width="65dp"
+ android:layout_height="44dp"
+ android:text="3"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.656"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.282"
+ tools:ignore="TouchTargetSizeCheck" />
+ <TextView
+ android:id="@+id/textView"
+ android:layout_width="310dp"
+ android:layout_height="46dp"
+ android:text="Simple Calculator"
+ android:textColor="#C2185B"
+ android:textSize="25dp"
+ android:textStyle="bold"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintHorizontal_bias="0.422"
+ app:layout_constraintLeft_toLeftOf="parent"
+ app:layout_constraintRight_toRightOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.058" />
+ <TextView
+ android:id="@+id/textView2"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Result"
+ android:textColor="#00796B"
+ android:textSize="20dp"
+ android:textStyle="bold"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.07"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.176" />
+ <EditText
+ android:id="@+id/txt_result"
+ android:layout_width="249dp"
+ android:layout_height="40dp"
+ android:layout_marginTop="20dp"
+ android:ems="10"
+ android:inputType="textPersonName"
+ android:text=""
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.839"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.135"
+ tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+ <Button
+ android:id="@+id/button_four"
+ android:layout_width="69dp"
+ android:layout_height="49dp"
+ android:text="4"
+ app:layout_constraintBottom_toBottomOf="parent"
+ app:layout_constraintEnd_toEndOf="parent"
+ app:layout_constraintHorizontal_bias="0.952"
+ app:layout_constraintStart_toStartOf="parent"
+ app:layout_constraintTop_toTopOf="parent"
+ app:layout_constraintVertical_bias="0.277" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+MainActivity.java
+package com.example.program2;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+import java.util.regex.Pattern;
+public class MainActivity extends AppCompatActivity implements 
+View.OnClickListener {
+ Button btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix;
+ Button btnSeven, btnEight, btnNine, btnZero;
+ Button btnAdd, btnSub, btnMul, btnDiv;
+ Button btnClear, btnEqual, btnDot;
+ EditText txtResult;
+ @Override
+ protected void onCreate(Bundle savedInstanceState) {
+ super.onCreate(savedInstanceState);
+ setContentView(R.layout.activity_main);
+ btnOne = (Button) findViewById(R.id.button_one);
+ btnOne.setOnClickListener(this);
+ btnTwo = (Button) findViewById(R.id.button_two);
+ btnTwo.setOnClickListener(this);
+ btnThree = (Button) findViewById(R.id.button_three);
+ btnThree.setOnClickListener(this);
+ btnFour = (Button) findViewById(R.id.button_four);
+ btnFour.setOnClickListener(this);
+ btnFive = (Button) findViewById(R.id.button_five);
+ btnFive.setOnClickListener(this);
+ btnSix = (Button) findViewById(R.id.button_six);
+ btnSix.setOnClickListener(this);
+ btnSeven = (Button) findViewById(R.id.button_seven);
+ btnSeven.setOnClickListener(this);
+ btnEight = (Button) findViewById(R.id.button_eight);
+ btnEight.setOnClickListener(this);
+ btnNine = (Button) findViewById(R.id.button_nine);
+ btnNine.setOnClickListener(this);
+ btnZero = (Button) findViewById(R.id.button_zero);
+ btnZero.setOnClickListener(this);
+ btnAdd = (Button) findViewById(R.id.button_add);
+ btnAdd.setOnClickListener(this);
+ btnSub = (Button) findViewById(R.id.button_sub);
+ btnSub.setOnClickListener(this);
+ btnMul = (Button) findViewById(R.id.button_mul);
+ btnMul.setOnClickListener(this);
+ btnDiv = (Button) findViewById(R.id.button_div);
+ btnDiv.setOnClickListener(this);
+ btnClear = (Button) findViewById(R.id.button_clear);
+ btnClear.setOnClickListener(this);
+ btnEqual = (Button) findViewById(R.id.button_equal);
+ btnEqual.setOnClickListener(this);
+ btnDot = (Button) findViewById(R.id.button_dot);
+ btnDot.setOnClickListener(this);
+ txtResult = (EditText) findViewById(R.id.txt_result);
+ txtResult.setText("");
+ }
+ @Override
+ public void onClick(View v)
+ {
+ if (v.equals(btnOne))
+ txtResult.append("1");
+ if (v.equals(btnTwo))
+ txtResult.append("2");
+ if (v.equals(btnThree))
+ txtResult.append("3");
+ if (v.equals(btnFour))
+ txtResult.append("4");
+ if (v.equals(btnFive))
+ txtResult.append("5");
+ if (v.equals(btnSix))
+ txtResult.append("6");
+ if (v.equals(btnSeven))
+ txtResult.append("7");
+ if (v.equals(btnEight))
+ txtResult.append("8");
+ if (v.equals(btnNine))
+ txtResult.append("9");
+ if (v.equals(btnZero))
+ txtResult.append("0");
+ if (v.equals(btnDot))
+ txtResult.append(".");
+ if (v.equals(btnClear))
+ txtResult.setText("");
+ if (v.equals(btnAdd))
+ txtResult.append("+");
+ if (v.equals(btnSub))
+ txtResult.append("-");
+ if (v.equals(btnMul))
+ txtResult.append("*");
+ if (v.equals(btnDiv))
+ txtResult.append("/");
+ if (v.equals(btnEqual))
+ {
+ try {
+ String data = txtResult.getText().toString();
+ if (data.contains("/")) {
+ String[] operands = data.split("/");
+ if (operands.length == 2) {
+ double operand1 = Double.parseDouble(operands[0]);
+ double operand2 = Double.parseDouble(operands[1]);
+ double result = operand1 / operand2;
+ txtResult.setText(String.valueOf(result));
+ } else {
+ Toast.makeText(getBaseContext(), "Invalid Input", 
+Toast.LENGTH_LONG).show();
+ }
+ } else if (data.contains("*")) {
+ String[] operands = data.split(Pattern.quote("*"));
+ if (operands.length == 2) {
+ double operand1 = Double.parseDouble(operands[0]);
+ double operand2 = Double.parseDouble(operands[1]);
+ double result = operand1 * operand2;
+ txtResult.setText(String.valueOf(result));
+ } else {
+ Toast.makeText(getBaseContext(), "Invalid Input", 
+Toast.LENGTH_LONG).show();
+ }
+ } else if (data.contains("+"))
+ {
+ String[] operands = data.split(Pattern.quote("+"));
+ if (operands.length == 2) {
+ double operand1 = Double.parseDouble(operands[0]);
+ double operand2 = Double.parseDouble(operands[1]);
+ double result = operand1 + operand2;
+ txtResult.setText(String.valueOf(result));
+ }
+ else {
+ Toast.makeText(getBaseContext(), "Invalid Input", 
+Toast.LENGTH_LONG).show();
+ }
+ }
+ else if (data.contains("-"))
+ {
+ String[] operands = data.split("-");
+ if (operands.length == 2) {
+ double operand1 = Double.parseDouble(operands[0]);
+ double operand2 = Double.parseDouble(operands[1]);
+ double result = operand1 - operand2;
+ txtResult.setText(String.valueOf(result));
+ }
+ else
+ {
+ Toast.makeText(getBaseContext(), "Invalid Input", 
+Toast.LENGTH_LONG).show();
+ }
+ }
+ }
+ catch (Exception e)
+ {
+ Toast.makeText(getBaseContext(), "Invalid Input", 
+Toast.LENGTH_LONG).show();
+ }
+ }
+ }
+}
+
+
+
+program3 : 
+
+Activity_main.xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayoutxmlns:android="http://schema
+s.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<TextView android:id="@+id/textView2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="100dp"
+android:text="SIGN UP"
+android:textColor="@android:color/background_dark"
+android:textSize="22dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+<TextView android:id="@+id/textView3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="30dp"
+android:layout_marginTop="50dp"
+android:text="USERNAME"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/textView2" />
+<TextView android:id="@+id/textView4"
+android:layout_width="82dp" android:layout_height="34dp"
+android:layout_marginTop="50dp"
+android:text="PASSWORD"
+app:layout_constraintStart_toStartOf="@+id/textView3"
+app:layout_constraintTop_toBottomOf="@+id/textView3" />
+<EditText android:id="@+id/txt_username"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="40dp"
+android:layout_marginEnd="10dp"
+android:ems="10"
+android:inputType="textPersonName"
+app:layout_constraintBottom_toBottomOf="@+id/textView3"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toEndOf="@+id/textView3"
+app:layout_constraintTop_toTopOf="@+id/textView3" />
+<EditText
+android:id="@+id/txt_password"
+android:layout_width="0dp"
+android:layout_height="40dp"
+android:layout_marginTop="26dp"
+android:ems="10"
+android:inputType="textPassword"
+app:layout_constraintEnd_toEndOf="@+id/txt_username"
+app:layout_constraintStart_toStartOf="@+id/txt_username"
+app:layout_constraintTop_toBottomOf="@+id/txt_username" />
+<Button android:id="@+id/btn_signup"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:text="Sign Up"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/txt_password" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+Activity_login.xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayoutxmlns:android="http://schema
+s.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".LoginActivity">
+<TextView android:id="@+id/textView7"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="50dp"
+android:text="Login" android:textSize="22dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+<TextView
+android:id="@+id/textView9"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="30dp"
+android:layout_marginTop="50dp"
+android:text="Username"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/textView7" />
+<EditText
+android:id="@+id/txt_login_username"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="20dp"
+android:layout_marginEnd="20dp"
+android:ems="10"
+android:inputType="textPersonName"
+app:layout_constraintBottom_toBottomOf="@+id/textView9"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toEndOf="@+id/textView9"
+app:layout_constraintTop_toTopOf="@+id/textView9" />
+<TextView android:id="@+id/textView10"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="30dp"
+android:layout_marginTop="50dp"
+ android:text="PASSWORD"
+ app:layout_constraintStart_toStartOf="parent" 
+ app:layout_constraintTop_toBottomOf="@+id/textView9" />
+<EditText android:id="@+id/txt_login_password"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:ems="10"
+android:inputType="textPassword"
+app:layout_constraintEnd_toEndOf="@+id/txt_login_username"
+app:layout_constraintStart_toStartOf="@+id/txt_login_username"
+app:layout_constraintTop_toTopOf="@+id/textView10" />
+<Button android:id="@+id/btn_login_signin"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="50dp"
+android:text="Login"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/txt_login_password" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+MainActivity.java
+package com.example.parta.program3;
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+public class MainActivityextends AppCompatActivity implements View.OnClickListener 
+{
+EditTexttxt Username;
+EditTexttxt Password;
+Button btnSignup;
+String regularExpression="^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[@$!])[AZa-z\\d@$!]{8,}$";
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);
+txtUsername=(EditText)findViewById(R.id.txt_username);
+txtPassword=(EditText)findViewById(R.id.txt_password);
+btnSignup=(Button)findViewById(R.id.btn_signup);
+btnSignup.setOnClickListener(this);
+}
+public void onClick(View v)
+{
+String username=txtUsername.getText().toString();
+String password=txtPassword.getText().toString();
+if(validatePassword(password)) {
+Bundle bundle = new Bundle();
+bundle.putString("user", username);
+bundle.putString("Lab@2020", password);
+Intent it = new Intent(this, LoginActivity.class);
+it.putExtra("data", bundle);
+
+
+ startActivity(it); }
+ else {
+Toast.makeText(getBaseContext(), "Invalid Password",
+Toast.LENGTH_LONG).show();
+} }
+public booleanvalidatePassword(String password)
+{
+Pattern pattern=Pattern.compile(regularExpression);
+Matcher matcher=pattern.matcher(password);
+ return matcher.matches();
+}
+}
+
+LoginActivity.java
+package com.example.parta.program3;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+public class LoginActivityextends AppCompatActivity implements 
+View.OnClickListener 
+{
+EditTexttxt LoginUsername;
+EditTexttxt LoginPassword;
+ Button btnLogin;
+ String user,pass;
+int count=0
+@Override
+protected void onCreate(Bundle savedInstanceState)
+{
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_login);
+txtLoginUsername=(EditText) findViewById(R.id.txt_login_username);
+txtLoginPassword=(EditText) findViewById(R.id.txt_login_password);
+btnLogin=(Button)findViewById(R.id.btn_login_signin);
+btnLogin.setOnClickListener(this);
+Bundle bundle=getIntent().getBundleExtra("data");
+user=bundle.getString("rnsit");
+pass=bundle.getString("Lab@2020");
+ }
+public void onClick(view v)
+{
+String user1=txtLoginUsername.getText().toString();
+String pass1=txtLoginPassword.getText().toString();
+if(user.equals(user1)&&pass.equals(pass1))
+{
+ Toast.makeText(this,"Login Successful" ,Toast.LENGTH_LONG).show();
+}
+else
+{
+count++;
+if(count==3)
+ {
+btnLogin.setEnabled(false);Toast.makeText(this, "Failed Login Attempts"
+,Toast.LENGTH_LONG).show();
+ }
+else
+{
+Toast.makeText(this,"Login Failed "+count ,Toast.LENGTH_LONG).show();
+ }
+}}}
+
+
+
+program4 : 
+
+
+Activity_main.xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:orientation="vertical"
+ android:gravity="center" tools:context=".MainActivity">
+ <Button
+ android:id="@+id/btn_start_change_wallpaper"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Click here to Change Wallpaper" />
+</LinearLayout>
+
+
+MainActivity.java
+ package com.example.program5;
+import androidx.appcompat.app.AppCompatActivity;
+import android.app.WallpaperManager;
+import android.graphics.BitmapFactory;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import java.util.Timer;
+import java.util.TimerTask;
+public class MainActivity extends AppCompatActivity implements 
+View.OnClickListener {
+ Button btnChangeWallpaper;
+boolean running;
+ int[] imagesArray=new int[]
+ {
+ R.drawable.img1,R.drawable.img2,
+ R.drawable.img3,
+ R.drawable.img4,
+ R.drawable.img5
+ };
+ int i=0;
+ @Override
+ protected void onCreate(Bundle savedInstanceState) 
+ {
+ super.onCreate(savedInstanceState);
+ setContentView(R.layout.activity_main) 
+btnChangeWallpaper=(Button) findViewById(R.id.btn_start_change_wallpaper);
+ btnChangeWallpaper.setOnClickListener(this);
+ }
+ @Override
+ public void onClick(View view)
+ {
+ if(!running)
+ {
+ new Timer().schedule (new MyTimer(),0,3000);
+ running=true;
+ }
+ }
+ class MyTimer extends TimerTask {
+ public void run() {
+ try {
+ WallpaperManager wallpaperManager = 
+WallpaperManager.getInstance(getBaseContext());
+if(i==12) i=1;
+if(i==11) i=2;
+if(i==10) i=3;
+if(i==9) i=4;
+if(i==8) i=5;
+if(i==7) i=6;
+if(i==6) i=7;
+if(i==5) i=8;
+if(i==4) i=9;
+if(i==3) i=10;
+ 
+wallpaperManager.setBitmap(BitmapFactory.decodeResource(getResources(), 
+imagesArray[i]));
+ i++;
+ } catch (Exception e)
+ { }
+ }
+ } }
+AndriodManifest.xml
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.program4">
+<uses-permission android:name="android.permission.SET_WALLPAPER"/>
+<application android:allowBackup="true"
+android:icon="@mipmap/ic_launcher"
+android:label="@string/app_name"
+android:roundIcon="@mipmap/ic_launcher_ro
+und"android:supportsRtl="true"
+android:theme="@style/AppTheme">
+<activity android:name=".MainActivity">
+<intent-filter>
+<action android:name="android.intent.action.MAIN" />
+<category android:name="android.intent.category.LAUNCHER" />
+</intent-filter>
+</activity>
+</application>
+</manifest>
+
+
+
+program5
+activity_main.xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayoutxmlns:android="http://schemas.andr
+oid.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/lbl_counter"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<TextView android:id="@+id/textView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="100dp"
+android:text="Counter Application"
+android:textSize="36sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+<TextView android:id="@+id/lbl_text"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:text="Counter Value"
+android:textColor="@color/colorAccent"
+android:textSize="30sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/textView" />
+<Button android:id="@+id/btn_start"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="20dp"
+android:text="Start"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/lbl_text" />
+<Button
+android:id="@+id/btn_stop"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:text="Stop"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/btn_start" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+MainActivity.java
+package com.example.program5;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.view.View; import 
+android.widget.Button; import
+android.widget.TextView;
+import org.w3c.dom.Text;
+public class MainActivity extends
+AppCompatActivity implements View.OnClickListener
+{
+TextViewlblCounter;
+Button btnStart,btnStop;
+int counter=0;
+Boolean running=false;
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);
+lblCounter=(TextView)findViewById(R.id.lbl_text);
+btnStart=(Button)findViewById(R.id.btn_start);
+btnStop=(Button)findViewById(R.id.btn_stop);
+btnStop.setOnClickListener(this);
+btnStart.setOnClickListener(this);
+}
+public void onClick(View v)
+{
+if(v.equals(btnStart))
+{
+counter=0;
+running=true;
+new MyCounter().start();
+}
+else if(v.equals(btnStop))
+{
+running=false;
+}
+}
+Handler handler=new Handler()
+{
+public void handleMessage(Message m)
+{
+lblCounter.setText(String.valueOf(m.what));
+}
+};
+class MyCounter extends Thread
+{
+public void run()
+{
+while(running)
+{
+counter++;
+handler.sendEmptyMessage(counter);
+try { Thread.sleep(1000);
+}
+catch(Exception e) { }
+}
+}
+}
+}
+
+
+program6
+activity_main.xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayoutxmlns:android="http://schema
+s.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<Button android:id="@+id/btn_parsexml"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="80dp"
+android:text="Parse XML Data"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/textView4" />
+<Button
+android:id="@+id/btn_parsejson"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="80dp"
+android:text="Parse Json Data"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/btn_parsexml" />
+<TextView android:id="@+id/textView4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="40dp"
+android:text="PARSING XML AND JSON DATA"
+android:textSize="20dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+activity_view.xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayoutxmlns:android="http://schema
+s.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ViewActivity">
+<TextView android:id="@+id/lbl_xml_data"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:text="Xml Data"
+app:layout_constraintStart_toStartOf="@+id/textView2"
+app:layout_constraintTop_toBottomOf="@+id/textView2" />
+<TextView
+android:id="@+id/textView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="40dp"
+android:text="PARSING XML AND JSON DATA"
+android:textSize="20dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+<TextView android:id="@+id/textView2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="40dp"
+android:layout_marginTop="20dp"
+android:text="XML DATA"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/textView" />
+<TextView android:id="@+id/textView3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="20dp"
+android:layout_marginEnd="40dp"
+android:text="JSON DATA"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/textView" />
+<TextView android:id="@+id/lbl_json_data"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:text="Json Data"
+app:layout_constraintEnd_toEndOf="@+id/textView3"
+app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+MainActivity.java 
+package com.example.parta_program6;
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+public class MainActivity extends AppCompatActivity implements
+View.OnClickListener 
+{
+Button btnParseXml,btnParseJson;
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);
+btnParseXml=(Button)findViewById(R.id.btn_parsexml);
+btnParseJson=(Button)findViewById(R.id.btn_parsejson);
+btnParseJson.setOnClickListener(this);
+btnParseXml.setOnClickListener(this);}
+
+@Override
+public void onClick(View v) {
+if(v.equals(btnParseJson))
+{
+Intent it=new 
+Intent(this,ViewActivity.class);
+it.putExtra("mode",1);
+startActivity(it);
+}
+else if(v.equals(btnParseXml))
+{
+Intent it=new 
+Intent(this,ViewActivity.class);
+it.putExtra("mode",2);
+startActivity(it);
+}
+}
+}
+ViewActivity.java
+
+package com.example.parta_program6;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.TextView;
+import org.json.JSONObject;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import java.io.InputStream;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+public class ViewActivity extends AppCompatActivity {
+TextView lblXmlData,lblJsonData;
+int mode=0;
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_view);
+lblXmlData=(TextView)findViewById(R.id.lbl_xml_data);
+lblJsonData=(TextView)findViewById(R.id.lbl_json_data);
+mode=getIntent().getIntExtra("mode",0);
+if(mode==1) parseJson();
+else parseXmlDocument();
+}
+public String parseXmlDocument()
+{
+try {
+InputStream is = getAssets().open("input.xml");
+DocumentBuilderFactorydbFactory = 
+DocumentBuilderFactory.newInstance();DocumentBuilderdBuilder
+= dbFactory.newDocumentBuilder();
+Document doc = dBuilder.parse(is);
+Element element=doc.getDocumentElement();
+element.normalize();
+NodeListnList = doc.getElementsByTagName("employee");
+for (int i=0; i<n;i++)
+List.getLength();
+{
+Node node = nList.item(i);
+if (node.getNodeType() == 
+Node.ELEMENT_NODE) {Element element2
+= (Element) node;
+lblXmlData.setText("City Name : " + getValue("city_name", 
+element2)+"\n"); lblXmlData.append("Latitude : " + getValue("Latitude", 
+element2)+"\n"); lblXmlData.append("Longitude : " + 
+getValue("Longitude", element2)+"\n"); lblXmlData.append("Temperature : 
+" + getValue("Temperature", element2)+"\n");
+lblXmlData.append("Humidity : " + getValue("Humidity", element2)+"\n");
+}
+}
+}
+catch (Exception e) {e.printStackTrace();}
+return null;
+}
+private static String getValue(String tag, Element element) {
+NodeListnodeList = 
+element.getElementsByTagName(tag).item(0).getChildNodes();Node node =
+nodeList.item(0);
+return node.getNodeValue();
+}
+public void parseJson()
+{
+try {
+InputStreaminputStream=getAssets().open("input.jso
+n");
+byte[] data=new byte[inputStream.available()];
+JsonData.setText("City 
+Name:"+jsonObject1.getString("city_name")+"\n");
+lblJsonData.append("Latitude:"+jsonObject1.getString("Latitude")+"\n")
+;
+lblJsonData.append("Longitude"+jsonObject1.getString("Longitude")+"\
+n");
+lblJsonData.append("Temperature:"+jsonObject1.getInt("Temperature")
++"\n");
+lblJsonData.append("Humidity"+jsonObject1.getString("Humidity")+"\n
+");
+}
+catch (Exception e) {e.printStackTrace();}
+}
+}
+
+
+
+program7
+activity_main.xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayoutxmlns:android="http://schema
+s.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/resauto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/txt_texttospeak"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<TextView
+android:id="@+id/textView"
+android:layout_width="wrap_c
+ontent"
+android:layout_height="wrap_content"
+android:layout_marginStart="50dp"
+android:layout_marginTop="80dp" android:text="Enter 
+Text to Speak"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+<EditText
+android:id="@+id/editText"
+android:layout_width="wrap_c
+ontent"
+android:layout_height="wrap_content"
+android:layout_marginTop="48dp"
+android:ems="10"
+android:inputType="textPersonName"
+app:layout_constraintEnd_toEndOf="pare
+nt"
+app:layout_constraintHorizontal_bias="0.
+0"
+app:layout_constraintStart_toStartOf="@+id/textView"
+app:layout_constraintTop_toBottomOf="@+id/textView" />
+<Button
+android:id="@+id/btn_spe
+ak"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="52dp"
+android:text="Speak"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/editText" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+MainActivity.java
+package
+com.example.parta.parta_program7;
+import
+androidx.appcompat.app.AppCompatActi
+vity;
+import android.os.Bundle;
+import 
+android.speech.tts.TextToSpeec
+h;import android.view.View;
+import 
+android.widget.Button;
+import 
+android.widget.EditText;
+import
+android.widget.Toast;
+import java.util.Locale;
+public class 
+MainActivityextendsAppCompatActivityimplementsView.OnClickListene
+r {EditTexttxtSpeak;
+Button btnSpeak;
+TextToSpeechtextToSpeech;
+
+@Override
+protected void onCreate(Bundle 
+savedInstanceState) {
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);
+txtSpeak=(EditText)findViewById(R.id.editTe
+xt);
+btnSpeak=(Button)findViewById(R.id.btn_spe
+ak); btnSpeak.setOnClickListener(this);
+textToSpeech=new 
+TextToSpeech(getBaseContext(),new
+TextToSpeech.OnInitListener() {
+@Override
+public void onInit(int 
+status) {
+if(status!=TextToSpeech.E
+RROR)
+{
+Toast.makeText(getBaseContext(),"Success", Toast.LENGTH_LONG).show();
+}
+}
+});
+textToSpeech.setLanguage(Locale.UK);
+}
+public void onClick(View v)
+{
+String text=txtSpeak.getText().toString();
+textToSpeech.speak(text,TextToSpeech.QUEUE_
+FLUSH,null);
+}
+}
+
+
+
+program8 : 
+
+activity_main.xml
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayoutxmlns:android="http://schemas.an
+droid.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+<TextView
+android:id="@+id/textView"
+android:layout_width="wrap_con
+tent"
+android:layout_height="wrap_content"
+android:layout_marginTop="50dp"
+android:text="PHONE DAILER"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent
+"app:layout_constraintTop_toTopOf="parent"
+/>
+<EditText android:id="@+id/txt_phonenumber"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="20dp"
+android:layout_marginTop="30dp" android:ems="10"
+android:inputType="textPersonName"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/textView" />
+<Button
+android:id="@+id/btn_delete"
+android:layout_width="wrap_con
+tent"
+android:layout_height="wrap_con
+tent"
+android:layout_marginStart="20d
+p"
+android:layout_marginTop="30dp"
+android:text="Delete"
+app:layout_constraintStart_toEndOf="@+id/txt_phonenumber"
+app:layout_constraintTop_toBottomOf="@+id/textView" />
+<Button
+android:id="@+id/btn_one"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="20dp"
+android:layout_marginTop="30dp" android:text="1"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/txt_phonenumber" />
+<Button android:id="@+id/btn_two"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:text="2"
+app:layout_constraintEnd_toStartOf="@+id/btn_three"
+app:layout_constraintStart_toEndOf="@+id/btn_one"
+app:layout_constraintTop_toBottomOf="@+id/txt_phonenumber" />
+<Button
+android:id="@+id/btn_thre
+e"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:layout_marginEnd="20dp"
+android:text="3"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/txt_phonenumber" />
+<Button
+android:id="@+id/btn_
+four"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="20dp"
+android:layout_marginTop="30dp"
+android:text="4"
+app:layout_constraintStart_toStartOf="par
+ent"
+app:layout_constraintTop_toBottomOf="@+id/btn_one" />
+<Button
+android:id="@+id/btn_
+five"
+android:layout_width="wrap_cont
+ent"
+android:layout_height="wrap_con
+tent"
+android:layout_marginTop="30dp"
+android:text="5"
+app:layout_constraintEnd_toStartOf="@+id/btn_six"
+app:layout_constraintStart_toEndOf="@+id/btn_four"
+app:layout_constraintTop_toBottomOf="@+id/btn_two" />
+<Button
+android:id="@+id/btn_six"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:layout_marginEnd="20dp"
+android:text="6"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/btn_three" />
+<Button
+android:id="@+id/btn_seve
+n"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="20dp"
+android:text="6"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/btn_three" />
+<Button
+android:id="@+id/btn_seve
+n"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="20dp"
+android:layout_marginTop="30dp"
+android:text="7"
+app:layout_constraintStart_toStartOf="par
+ent"
+app:layout_constraintTop_toBottomOf="@+id/btn_four" />
+<Button
+android:id="@+id/btn_eigh
+t"
+android:layout_width="wrap_cont
+ent"
+android:layout_height="wrap_con
+tent"
+android:layout_marginTop="30dp"
+android:text="8"
+app:layout_constraintEnd_toStartOf="@+id/btn_nine"
+app:layout_constraintStart_toEndOf="@+id/btn_seven"
+app:layout_constraintTop_toBottomOf="@+id/btn_five"
+/>
+<Button
+android:id="@+id/btn_
+nine"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:layout_marginEnd="20dp"
+android:text="9"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/btn_six" />
+<Button
+android:id="@+id/btn_
+zero"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:text="0"
+app:layout_constraintEnd_toEndOf="parent
+"
+app:layout_constraintStart_toStartOf="par
+ent"
+app:layout_constraintTop_toBottomOf="@+id/btn_eight" />
+<Button
+android:id="@+id/btn_
+call"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="20dp"
+android:layout_marginTop="30dp"
+android:text="Call"
+app:layout_constraintStart_toStartOf="parent
+"
+app:layout_constraintTop_toBottomOf="@+id/btn_zero" />
+<Button
+android:id="@+id/btn_
+save"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dp"
+android:layout_marginEnd="20dp"
+android:text="Save"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/btn_zero" />
+
+<Button
+android:id="@+id/btn_star
+t"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginStart="20dp"
+android:layout_marginTop="30dp"
+android:text="*"
+app:layout_constraintStart_toStartOf="par
+ent"
+app:layout_constraintTop_toBottomOf="@+id/btn_seven" />
+<Button
+android:id="@+id/btn_
+hash"
+android:layout_width="wrap_cont
+ent"
+android:layout_height="wrap_con
+tent"
+android:layout_marginTop="30dp"
+android:layout_marginEnd="20dp"
+android:text="#"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/btn_nine" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+MainActivity.java
+package com.example.part_a_program_8;
+import 
+androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import 
+android.net.Uri;
+import
+android.os.Bundle;
+import 
+android.provider.ContactsContract;
+import android.view.View;
+import 
+android.widget.Button;
+import
+android.widget.EditText;
+public class MainActivityextends AppCompatActivityimplements 
+View.OnClickListener{Button btnOne,btnTwo,btnThree,btnFour,btnFive;
+Button 
+btnSix,btnSeven,btnEight,btnNine,btnZero;
+Button
+btnDel,btnStar,btnHash,btnCall,btnSave;
+EditTexttxtPhonenu
+mber;@Override
+protected void onCreate(Bundle 
+savedInstanceState) {
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);
+btnOne=(Button)findViewById(R.id.btn_one);
+btnOne.setOnClickListener(this);
+btnTwo=(Button)findViewById(R.id.btn_two);
+btnTwo.setOnClickListener(this);
+btnThree=(Button)findViewById(R.id.btn_three);
+btnThree.setOnClickListener(this);
+btnFour=(Button)findViewById(R.id.btn_four);
+btnFour.setOnClickListener(this);
+btnFive=(Button)findViewById(R.id.btn_five);
+btnFive.setOnClickListener(this);
+btnSix=(Button)findViewById(R.id.btn_six);
+btnSix.setOnClickListener(this);
+btnSeven=(Button)findViewById(R.id.btn_seven);
+btnSeven.setOnClickListener(this);
+btnEight=(Button)findViewById(R.id.btn_eight);
+btnEight.setOnClickListener(this);
+btnNine=(Button)findViewById(R.id.btn_nine);
+btnNine.setOnClickListener(this);
+btnZero=(Button)findViewById(R.id.btn_zero);
+btnZero.setOnClickListener(this);
+btnStar=(Button)findViewById(R.id.btn_st
+art);btnStar.setOnClickListener(this);
+btnHash=(Button)findViewById(R.id.btn_hash);
+btnHash.setOnClickListener(this);
+btnCall=(Button)findViewById(R.id.btn_call);
+btnCall.setOnClickListener(this);
+btnSave=(Button)findViewById(R.id.btn_save);
+btnSave.setOnClickListener(this);
+btnDel=(Button)findViewById(R.id.btn_del
+ete);btnDel.setOnClickListener(this);
+txtPhonenumber=(EditText)findViewById(R.id.txt_phonenumber);
+txtPhonenumber.setText("");
+
+
+public void onClick(View v)
+{
+if(v.equals(btnOne))
+txtPhonenumber.append("1");
+else if(v.equals(btnTwo))
+txtPhonenumber.append("2");
+else if(v.equals(btnThree))
+txtPhonenumber.append("3");
+else if(v.equals(btnFour))
+txtPhonenumber.append("4");
+else if(v.equals(btnFive))
+txtPhonenumber.append("5");
+else if(v.equals(btnSix))
+txtPhonenumber.append("6");
+else if(v.equals(btnSeven))
+txtPhonenumber.append("7");
+else if(v.equals(btnEight))
+txtPhonenumber.append("8");
+else if(v.equals(btnNine))
+txtPhonenumber.append("9");
+else if(v.equals(btnZero))
+txtPhonenumber.append("0");
+else if(v.equals(btnStar))
+txtPhonenumber.append("*");
+else if(v.equals(btnHash))
+txtPhonenumber.append("#");
+else if(v.equals(btnSave))
+{
+Intent contactIntent= new Intent
+(ContactsContract.Intents.Insert.ACT
+ION);contactIntent.setType
+(ContactsContract.RawContacts.CONTENT_TYPE);
+contactIntent
+.putExtra(ContactsContract.Intents.Insert.NAME,"Unknown");
+contactIntent.putExtra(ContactsContract.Intents.Insert.PHONE,
+txtPhonenumber.getText().toString());
+startActivity(contactIntent);
+}
+else if(v.equals(btnDel))
+{
+String 
+data=txtPhonenumber.getText().toString();
+if(data.length()>0)
+{
+txtPhonenumber.setText
+(data.substring(0,data.length()-1));
+}
+else
+{
+txtPhonenumber.setText("");
+}
+}
+btnCall.setOnClickListener(new View.OnClickListener()
+{
+@Override
+public void onClick(View v) {
+String data = 
+txtPhonenumber.getText().toString();Intent 
+intent=new Intent(Intent.ACTION_DIAL);
+intent.setData(Uri.parse("tel:"+ data));
+startActivity(intent);
+}
+}
+);
+}
+}
+
+
+
+
+
+
+
+
+
+
